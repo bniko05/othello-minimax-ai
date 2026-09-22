@@ -16,7 +16,7 @@ A terminal-based implementation of **Othello (Reversi)** in Java, where you play
    ./play.sh
    ```
 
-### Option 2: Download and run (requires Java 17+)
+### Option 2: Download and run
 1. Download [`othello.jar`](https://github.com/bniko05/othello-minimax-ai/releases/latest/download/othello.jar) from the latest release.
 2. Run it:
    ```bash
