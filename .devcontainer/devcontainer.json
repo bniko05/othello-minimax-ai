@@ -1,0 +1,10 @@
+{
+  "name": "Othello AI",
+  "image": "mcr.microsoft.com/devcontainers/java:1-21",
+  "postCreateCommand": "chmod +x play.sh && mkdir -p out && javac -d out src/*.java",
+  "customizations": {
+    "codespaces": {
+      "openFiles": ["README.md"]
+    }
+  }
+}
