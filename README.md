@@ -1,16 +1,16 @@
-# ♟️ Othello AI: Minimax with Alpha-Beta Pruning
+# Othello AI: Minimax with Alpha-Beta Pruning
 
 ![Java](https://img.shields.io/badge/Java-17%2B-orange?logo=openjdk&logoColor=white)
 ![Interface](https://img.shields.io/badge/interface-terminal-lightgrey)
 ![Course](https://img.shields.io/badge/AUEB-Artificial%20Intelligence%202025-blue)
 
-A terminal-based implementation of **Othello (Reversi)** in Java, where you play against an AI opponent powered by the **Minimax algorithm with α-β pruning** and a hand-tuned heuristic evaluation function. The search depth is configurable, so you choose how strong (and how fast) the AI is.
+A terminal-based implementation of **Othello (Reversi)** in Java, where you play against an AI opponent powered by the **Minimax algorithm with α-β pruning** and a hand-tuned heuristic evaluation function. The search depth is configurable, so you choose how strong the AI is.
 
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/bniko05/othello-minimax-ai)
 
 ---
 
-## 🎮 Play it now
+## Play it now
 
 ### Option 1: In your browser (no installation)
 1. Click the **Open in GitHub Codespaces** button above (requires a free GitHub account).
@@ -37,7 +37,7 @@ java -cp out Main
 
 ---
 
-## 📖 How to play
+## How to play
 
 - At startup, choose the **maximum search depth** from 1 to 12 (the AI difficulty, 5 recommended) and **who plays first** (`P` for Player, `A` for AI).
 - Black discs are shown as `*` and white discs as `o`. Black always moves first, as in the official rules.
@@ -62,7 +62,7 @@ java -cp out Main
 
 ---
 
-## 🧠 How the AI works
+## How the AI works
 
 ### Minimax with α-β pruning
 The AI explores the game tree up to the chosen depth. Black is the **maximizing** player and White the **minimizing** player, so the AI takes whichever role corresponds to its color.
@@ -88,7 +88,7 @@ The weights were chosen intuitively and fine-tuned through play.
 
 ---
 
-## 📊 Experimental results
+## Experimental results
 
 We ran full games with the same heuristic and different maximum depths to measure the cost of deeper search:
 
@@ -102,7 +102,7 @@ The number of positions grows exponentially with depth, so **depth 5 is the reco
 
 ---
 
-## 🗂️ Project structure
+## Project structure
 
 ```
 src/
@@ -123,19 +123,9 @@ Key methods in `Board`:
 
 ---
 
-## 🚀 Possible improvements
-
-- **Move ordering** (e.g. trying corners first) to increase the number of α-β cutoffs
-- **Iterative deepening** with a time limit instead of a fixed depth
-- **Transposition table** to avoid re-evaluating repeated positions
-- **Mobility** and **stability** features in the heuristic, with weights that change by game phase
-- A graphical interface (JavaFX or web)
-
----
-
 ## 👥 Authors
 
-Developed as the first programming assignment for the **Artificial Intelligence** course (2025), Department of Informatics, Athens University of Economics and Business.
+Developed as an assignment for the **Artificial Intelligence** course (2025), Department of Informatics, Athens University of Economics and Business.
 
 - **Vasileios Nikolaou** ([@bniko05](https://github.com/bniko05))
 - **Giorgos Papachristos**
