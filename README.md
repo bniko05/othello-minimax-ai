@@ -1,18 +1,14 @@
 # Othello AI: Minimax with Alpha-Beta Pruning
 
-![Java](https://img.shields.io/badge/Java-17%2B-orange?logo=openjdk&logoColor=white)
-![Interface](https://img.shields.io/badge/interface-terminal-lightgrey)
-![Course](https://img.shields.io/badge/AUEB-Artificial%20Intelligence%202025-blue)
-
 A terminal-based implementation of **Othello (Reversi)** in Java, where you play against an AI opponent powered by the **Minimax algorithm with α-β pruning** and a hand-tuned heuristic evaluation function. The search depth is configurable, so you choose how strong the AI is.
 
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/bniko05/othello-minimax-ai)
 
 ---
 
-## Play it now
+## Play it
 
-### Option 1: In your browser (no installation)
+### Option 1: In your browser
 1. Click the **Open in GitHub Codespaces** button above (requires a free GitHub account).
 2. Wait for the environment to load. The code compiles automatically.
 3. In the terminal, run:
@@ -26,15 +22,7 @@ A terminal-based implementation of **Othello (Reversi)** in Java, where you play
    ```bash
    java -jar othello.jar
    ```
-
-### Option 3: Build from source
-```bash
-git clone https://github.com/bniko05/othello-minimax-ai.git
-cd othello-minimax-ai
-javac -d out src/*.java
-java -cp out Main
-```
-
+   
 ---
 
 ## How to play
