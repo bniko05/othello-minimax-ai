@@ -111,7 +111,7 @@ Key methods in `Board`:
 
 ---
 
-## 👥 Authors
+## Authors
 
 Developed as an assignment for the **Artificial Intelligence** course (2025), Department of Informatics, Athens University of Economics and Business.
 
